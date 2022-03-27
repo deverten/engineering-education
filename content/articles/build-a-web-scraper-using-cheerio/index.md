@@ -198,7 +198,9 @@ Cheerio makes it possible to navigate through the DOM elements and manipulate th
 ### Parsing the HTML with Cheerio
 Before parsing a HTML page you must first inspect the structure of the page. In this case, you want to pick the name of each coin, its current price, and other relevant data. 
 
-Right-click on Coin Market's page, you'll notice that the data is stored in a table, You will find a list of rows `tr` inside the `tbody` tag. Right-click on the `tr` element and click `copy selector`. 
+Right-click on Coin Market's page, you'll notice that the data is stored in a table, You will find a list of rows `tr` inside the `tbody` tag. Right-click on the `tr` element and click `copy selector`. You should see the HTML elements exposed like so:
+
+![cheerio](/engineering-education/build-a-web-scraper-using-cheerio/cheerio.png)
 
 Next, edit the `index.js` file to resemble this:
 
